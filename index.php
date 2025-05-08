@@ -22,5 +22,12 @@
             ?>
         </ul>
     </nav>
+    <main>
+        <section>
+            <h2>Every tail deserves a happy ending</h2>
+            <p>We are dedicated to finding loving homes for our adorable pets. Every pet deserves a second chance, and we’re here to make that happen!</p>
+            <a id="button" href="">View Available Pets</a>
+        </section>
+    </main>
 </body>
 </html>
