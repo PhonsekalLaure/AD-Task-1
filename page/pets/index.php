@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Perro Y El Gato Adoption Center</title>
-    <link rel="stylesheet" href="href="../>assets/css/styles.css"">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
 </head>
 <body>
     <?php
-        $menu = ["Home" => "index.php", "Pets" => "", "About Us" => ""]
+        $menu = ["Home" => "../../index.php", "Pets" => "index.php", "About Us" => ""]
     ?>
     <header>
         <h1>Welcome to El Perro Y El Gato Adoption Center 🐶🐱</h1>
