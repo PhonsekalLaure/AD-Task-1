@@ -29,20 +29,20 @@
         ];
     ?>
     <header>
-        <h1>Available Pets</h1>
-        <nav>
-            <ul>
-                <?php
-                    foreach ($menu as $title => $link){
-                        echo "<li><a href = '$link'>$title</a></li>";
-                    }
-                ?>
-            </ul>
-        </nav>
+        <h1>Available Pets🦈🐒</h1>
+        <p>🐾 Find your perfect furry companion from our loving pet family! 🐾</p>
     </header>
-    
+    <nav>
+        <ul>
+            <?php
+                foreach ($menu as $title => $link){
+                    echo "<li><a href = '$link'>$title</a></li>";
+                }
+            ?>
+        </ul>
+    </nav>
     <main>
-
+                
     </main>
 </body>
 </html>
