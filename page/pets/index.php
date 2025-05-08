@@ -8,7 +8,13 @@
 </head>
 <body>
     <?php
-        $menu = ["Home" => "../../index.php", "Pets" => "index.php", "About Us" => ""]
+        $menu = ["Home" => "../../index.php", "Pets" => "index.php", "About Us" => ""];
+        $cats = [
+            ["name" => "Oragne", "color" => "blue", "age" => 21, "image" => "assets/img/orange.gif"],
+            ["name" => "George Bush", "color"=> "white", "age" => 2, "image" => "assets/img/george.gif"],
+            ["name" => "Laughy", "color"=> "orange", "age" => 6, "image"=> "assets/img/laughy.gif"],
+            ["name"=> "Tung Tung", "color"=> "white", "age" => 8, "image"=> "assets/img/tung tung.gif"]
+        ];
     ?>
     <header>
         <h1>Welcome to El Perro Y El Gato Adoption Center 🐶🐱</h1>
@@ -23,5 +29,8 @@
             ?>
         </ul>
     </nav>
+    <main>
+
+    </main>
 </body>
 </html>
