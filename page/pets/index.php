@@ -57,6 +57,18 @@
             }
             ?>
 
+        <h3>Dogs</h3>
+            <?php
+            foreach ($dogs as $pet) {
+                echo "<div class='pet'>";
+                echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
+                echo "<h3>{$pet['name']}</h3>";
+                echo "<p>Type: {$pet['color']}</p>";
+                echo "<p>Age: {$pet['age']} years old</p>";
+                echo "</div>";
+            }
+            ?>
+
             
         </div>
     </main>
