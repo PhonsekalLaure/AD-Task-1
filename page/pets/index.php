@@ -23,6 +23,10 @@
             ["name"=> "Cupcake", "color"=> "brown", "age" => "7", "image"=> "assets/img/cupcake.gif"],
         ];
 
+        $other = [
+            ["name"=> "Tralalero", "specie"=> "shark", "age" => "1000","image"=> "assets/img/tralalero.gif"],
+            ["name"=> "Patapim", "specie"=> "monkey", "age" => "30","image"=> "assets/img/patapim.gif"]
+        ];
     ?>
     <header>
         <h1>Welcome to El Perro Y El Gato Adoption Center 🐶🐱</h1>
