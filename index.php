@@ -13,16 +13,17 @@
     <header>
         <h1>Welcome to El Perro Y El Gato Adoption Center 🐶🐱</h1>
         <p>🐾Find your new furry friend today!🐾</p>
+        <nav>
+            <ul>
+                <?php
+                    foreach ($menu as $title => $link){
+                        echo "<li><a href = '$link'>$title</a></li>";
+                    }
+                ?>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <?php
-                foreach ($menu as $title => $link){
-                    echo "<li><a href = '$link'>$title</a></li>";
-                }
-            ?>
-        </ul>
-    </nav>
+    
     <main>
         <section>
             <h2>Every tail deserves a happy ending</h2>

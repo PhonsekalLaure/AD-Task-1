@@ -29,18 +29,18 @@
         ];
     ?>
     <header>
-        <h1>Welcome to El Perro Y El Gato Adoption Center 🐶🐱</h1>
-        <p>🐾Find your new furry friend today!🐾</p>
+        <h1>Available Pets</h1>
+        <nav>
+            <ul>
+                <?php
+                    foreach ($menu as $title => $link){
+                        echo "<li><a href = '$link'>$title</a></li>";
+                    }
+                ?>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <?php
-                foreach ($menu as $title => $link){
-                    echo "<li><a href = '$link'>$title</a></li>";
-                }
-            ?>
-        </ul>
-    </nav>
+    
     <main>
 
     </main>
