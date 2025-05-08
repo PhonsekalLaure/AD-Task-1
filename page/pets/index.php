@@ -42,9 +42,12 @@
         </ul>
     </nav>
     <main>
-        <h2>Meet Our Adorable Pets</h2>
-        <div class="pets">
+    <main>
+    <h2>Meet Our Adorable Pets</h2>
+    
+    <div class="pets-section">
         <h3>Cats</h3>
+        <div class="pets">
             <?php
             foreach ($cats as $pet) {
                 echo "<div class='pet'>";
@@ -55,8 +58,12 @@
                 echo "</div>";
             }
             ?>
+        </div>
+    </div>
 
+    <div class="pets-section">
         <h3>Dogs</h3>
+        <div class="pets">
             <?php
             foreach ($dogs as $pet) {
                 echo "<div class='pet'>";
@@ -67,8 +74,12 @@
                 echo "</div>";
             }
             ?>
+        </div>
+    </div>
 
+    <div class="pets-section">
         <h3>Others</h3>
+        <div class="pets">
             <?php
             foreach ($other as $pet) {
                 echo "<div class='pet'>";
@@ -80,6 +91,7 @@
             }
             ?>
         </div>
-    </main>
+    </div>
+</main>
 </body>
 </html>
