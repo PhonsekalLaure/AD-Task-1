@@ -16,3 +16,23 @@ body {
     background-color: #FAF3E0 ;
     color: #333333;
 }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #B35C44 ;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
