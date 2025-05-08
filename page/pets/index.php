@@ -42,7 +42,23 @@
         </ul>
     </nav>
     <main>
+        <h2>Meet Our Adorable Pets</h2>
+        <div class="pets">
 
+        <h3>Cats</h3>
+            <?php
+            foreach ($cats as $pet) {
+                echo "<div class='pet'>";
+                echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
+                echo "<h3>{$pet['name']}</h3>";
+                echo "<p>Type: {$pet['color']}</p>";
+                echo "<p>Age: {$pet['age']} years old</p>";
+                echo "</div>";
+            }
+            ?>
+
+            
+        </div>
     </main>
 </body>
 </html>
