@@ -15,6 +15,14 @@
             ["name" => "Laughy", "color"=> "orange", "age" => 6, "image"=> "assets/img/laughy.gif"],
             ["name"=> "Tung Tung", "color"=> "white", "age" => 8, "image"=> "assets/img/tung tung.gif"]
         ];
+
+        $dogs = [
+            ["name" => "Browny", "color"=> "brown", "age"=> "11", "image" => "assets/img/browny.gif"],
+            ["name"=> "Blud", "color"=> "black", "age" => "19", "image" => "assets/img/blud.gif"],
+            ["name"=> "Snow", "color"=> "white", "age" => "5", "image"=> "assets/img/Snow.gif"],
+            ["name"=> "Cupcake", "color"=> "brown", "age" => "7", "image"=> "assets/img/cupcake.gif"],
+        ];
+
     ?>
     <header>
         <h1>Welcome to El Perro Y El Gato Adoption Center 🐶🐱</h1>
