@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    background: #F4A261 ;
+    color: #333333 ;
+    padding: 2.5rem 0;
+    text-align: center;
+}
