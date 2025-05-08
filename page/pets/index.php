@@ -17,15 +17,15 @@
         ];
 
         $dogs = [
-            ["name" => "Browny", "color"=> "brown", "age"=> "11", "image" => "assets/img/browny.gif"],
-            ["name"=> "Blud", "color"=> "black", "age" => "19", "image" => "assets/img/blud.gif"],
-            ["name"=> "Snow", "color"=> "white", "age" => "5", "image"=> "assets/img/Snow.gif"],
-            ["name"=> "Cupcake", "color"=> "brown", "age" => "7", "image"=> "assets/img/cupcake.gif"],
+            ["name" => "Browny", "color"=> "Brown", "age"=> "11", "image" => "assets/img/browny.gif"],
+            ["name"=> "Blud", "color"=> "Black", "age" => "19", "image" => "assets/img/blud.gif"],
+            ["name"=> "Snow", "color"=> "White", "age" => "5", "image"=> "assets/img/Snow.gif"],
+            ["name"=> "Cupcake", "color"=> "Brown", "age" => "7", "image"=> "assets/img/cupcake.gif"],
         ];
 
         $other = [
-            ["name"=> "Tralalero", "specie"=> "shark", "age" => "1000","image"=> "assets/img/tralalero.gif"],
-            ["name"=> "Patapim", "specie"=> "monkey", "age" => "30","image"=> "assets/img/patapim.gif"]
+            ["name"=> "Tralalero", "color"=> "Glue", "age" => "1000","image"=> "assets/img/tralalero.gif"],
+            ["name"=> "Patapim", "color"=> "Green/Brown", "age" => "30","image"=> "assets/img/patapim.gif"]
         ];
     ?>
     <header>
@@ -42,7 +42,7 @@
         </ul>
     </nav>
     <main>
-                
+
     </main>
 </body>
 </html>
