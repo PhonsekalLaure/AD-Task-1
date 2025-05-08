@@ -50,7 +50,7 @@
                 echo "<div class='pet'>";
                 echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
                 echo "<h3>{$pet['name']}</h3>";
-                echo "<p>Type: {$pet['color']}</p>";
+                echo "<p>Color: {$pet['color']}</p>";
                 echo "<p>Age: {$pet['age']} years old</p>";
                 echo "</div>";
             }
@@ -62,7 +62,7 @@
                 echo "<div class='pet'>";
                 echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
                 echo "<h3>{$pet['name']}</h3>";
-                echo "<p>Type: {$pet['color']}</p>";
+                echo "<p>Color: {$pet['color']}</p>";
                 echo "<p>Age: {$pet['age']} years old</p>";
                 echo "</div>";
             }
@@ -74,7 +74,7 @@
                 echo "<div class='pet'>";
                 echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
                 echo "<h3>{$pet['name']}</h3>";
-                echo "<p>Type: {$pet['color']}</p>";
+                echo "<p>Color: {$pet['color']}</p>";
                 echo "<p>Age: {$pet['age']} years old</p>";
                 echo "</div>";
             }
