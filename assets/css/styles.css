@@ -50,3 +50,10 @@ h1, h2 {
     color: #333333;
 }
 
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
