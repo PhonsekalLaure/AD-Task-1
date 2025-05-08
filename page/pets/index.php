@@ -24,7 +24,7 @@
         ];
 
         $other = [
-            ["name"=> "Tralalero", "color"=> "Glue", "age" => "1000","image"=> "assets/img/tralalero.gif"],
+            ["name"=> "Tralalero", "color"=> "Blue", "age" => "1000","image"=> "assets/img/tralalero.gif"],
             ["name"=> "Patapim", "color"=> "Green/Brown", "age" => "30","image"=> "assets/img/patapim.gif"]
         ];
     ?>
@@ -44,7 +44,6 @@
     <main>
         <h2>Meet Our Adorable Pets</h2>
         <div class="pets">
-
         <h3>Cats</h3>
             <?php
             foreach ($cats as $pet) {
@@ -69,7 +68,17 @@
             }
             ?>
 
-            
+        <h3>Others</h3>
+            <?php
+            foreach ($other as $pet) {
+                echo "<div class='pet'>";
+                echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
+                echo "<h3>{$pet['name']}</h3>";
+                echo "<p>Type: {$pet['color']}</p>";
+                echo "<p>Age: {$pet['age']} years old</p>";
+                echo "</div>";
+            }
+            ?>
         </div>
     </main>
 </body>
