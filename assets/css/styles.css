@@ -90,3 +90,14 @@ form input, form textarea, form select, form button {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
+form button {
+    background: #F4A261;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #B35C44;
+}
