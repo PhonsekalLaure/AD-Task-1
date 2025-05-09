@@ -50,6 +50,18 @@ h1, h2 {
     color: #333333;
 }
 
+.pets-section {
+    margin-top: 40px;
+}
+
+.pets-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+    text-decoration: underline;
+}
+
 .pets {
     display: flex;
     flex-wrap: wrap;
