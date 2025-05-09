@@ -43,12 +43,8 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 1.2rem;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 8rem auto;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
