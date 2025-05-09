@@ -8,7 +8,11 @@
 </head>
 <body>
     <?php
-        $menu = ["Home" => "../../index.php", "Pets" => "index.php", "About Us" => ""];
+        $menu = [
+            "Home" => "../../index.php",
+            "Pets" => "index.php",
+            "About Us" => "../about/index.php"
+        ];
         $cats = [
             ["name" => "Oragne", "color" => "blue", "age" => 21, "image" => "assets/img/orange.gif"],
             ["name" => "George Bush", "color"=> "white", "age" => 2, "image" => "assets/img/george.gif"],
@@ -41,7 +45,6 @@
             ?>
         </ul>
     </nav>
-    <main>
     <main>
     <h2>Meet Our Adorable Pets</h2>
     

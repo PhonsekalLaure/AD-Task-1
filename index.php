@@ -8,7 +8,11 @@
 </head>
 <body>
     <?php
-        $menu = ["Home" => "index.php", "Pets" => "page/pets/index.php", "About Us" => ""]
+        $menu = [
+            "Home" => "index.php",
+            "Pets" => "page/pets/index.php",
+            "About Us" => ""
+        ];
     ?>
     <header>
         <h1>Welcome to El Perro Y El Gato Adoption Center 🐶🐱</h1>
