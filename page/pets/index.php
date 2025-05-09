@@ -84,14 +84,20 @@
         <h3>Others</h3>
         <div class="pets">
             <?php
-            foreach ($other as $pet) {
-                echo "<div class='pet'>";
+                foreach ($other as $pet) {
+                    if ($pet["name"] == "Tralalero") {
+                        $backgroundColor = "lightblue";
+                    } else {
+                        $backgroundColor = "lightgreen";
+                    }
+
+                echo "<div class='pet' style='background-color: $backgroundColor;'>";
                 echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
                 echo "<h3>{$pet['name']}</h3>";
                 echo "<p>Color: {$pet['color']}</p>";
                 echo "<p>Age: {$pet['age']} years old</p>";
                 echo "</div>";
-            }
+                }
             ?>
         </div>
     </div>
