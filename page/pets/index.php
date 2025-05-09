@@ -53,7 +53,7 @@
         <div class="pets">
             <?php
             foreach ($cats as $pet) {
-                echo "<div class='pet'>";
+                echo "<div class='pet' style='background-color:rgb(245, 196, 156)'>";
                 echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
                 echo "<h3>{$pet['name']}</h3>";
                 echo "<p>Color: {$pet['color']}</p>";
@@ -69,7 +69,7 @@
         <div class="pets">
             <?php
             foreach ($dogs as $pet) {
-                echo "<div class='pet'>";
+                echo "<div class='pet' style='background-color:rgb(255, 192, 174)'>";
                 echo "<img src='{$pet['image']}' alt='{$pet['name']}'>";
                 echo "<h3>{$pet['name']}</h3>";
                 echo "<p>Color: {$pet['color']}</p>";
