@@ -15,8 +15,8 @@
         ];
     ?>
     <header>
-        <h1>About Us</h1>
-        <p>Learn more about El Perro Y El Gato Adoption Center</p>
+        <h1>About Us🎯🏡</h1>
+        <p>🐾 Learn more about El Perro Y El Gato Adoption Center 🐾</p>
     </header>
     <nav>
         <ul>
