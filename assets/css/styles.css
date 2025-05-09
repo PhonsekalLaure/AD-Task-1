@@ -8,6 +8,8 @@ header {
     background: #F4A261 ;
     padding: 2.5rem 0;
     text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 body {
@@ -23,6 +25,8 @@ nav ul {
     justify-content: center;
     list-style: none;
     background: #B35C44 ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 nav ul li {
