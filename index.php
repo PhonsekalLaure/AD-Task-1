@@ -11,7 +11,7 @@
         $menu = [
             "Home" => "index.php",
             "Pets" => "page/pets/index.php",
-            "About Us" => ""
+            "About Us" => "page/about/index.php"
         ];
     ?>
     <header>
