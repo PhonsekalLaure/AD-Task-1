@@ -59,6 +59,11 @@ main {
     text-decoration: none;
     background-color: #F4A261;
     color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#button:hover{
+    background-color: #B35C44;
 }
 
 h1, h2 {
