@@ -51,6 +51,16 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+#button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #F4A261;
+    color: #fff;
+}
+
 h1, h2 {
     color: #333333;
 }
