@@ -68,8 +68,9 @@ The "El Perro Y El Gato Adoption Center" is a web-based platform designed to sim
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Static Pet Listings
+- Basic Navigation
+- Informational Pages
 
 ### Technology
 
