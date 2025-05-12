@@ -61,7 +61,7 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+The "El Perro Y El Gato Adoption Center" is a web-based platform designed to simplify the pet adoption process. It connects animal shelters with potential adopters, providing an easy-to-use interface for browsing available pets, managing adoption applications, and facilitating communication between shelters and adopters. The platform aims to promote responsible pet ownership and help animals find loving homes efficiently. This project is built using **PHP**, along with **HTML**, and **CSS**.
 
 ### Key Components
 
