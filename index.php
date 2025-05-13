@@ -34,5 +34,6 @@
             <a id="button" href="page/pets/index.php">View Available Pets</a>
         </section>
     </main>
+            
 </body>
 </html>
