@@ -23,7 +23,7 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=PhonsekalLaure/AD-Task-1)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/d1bf803e-a07f-442a-80c0-5f66583d07d6/project/1b19b2f0-071d-449f-b434-ecc774324e4d.svg)](https://wakatime.com/badge/user/d1bf803e-a07f-442a-80c0-5f66583d07d6/project/1b19b2f0-071d-449f-b434-ecc774324e4d)
 
 ---
 
